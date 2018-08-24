@@ -7,3 +7,9 @@ export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tp
 # Aliases
 alias ll='ls -al'
 alias vi=vim
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
+export BAT_THEME="GitHub"
