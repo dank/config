@@ -1,3 +1,6 @@
+## Config
+My macOS development setup.
+
 ### Prerequisites
 - [fzf](https://github.com/junegunn/fzf)
 - [bat](https://github.com/sharkdp/bat)
